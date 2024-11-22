@@ -38,7 +38,7 @@ To get a local copy up and running, follow these steps.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/R3MODAS/mystry-message.git
+    git clone https://github.com/sharadindudas/mystry-message.git
     cd mystry-message
     ```
 
@@ -60,7 +60,7 @@ To get a local copy up and running, follow these steps.
     RESEND_API_KEY =
     FROM_EMAIL =
     ADMIN_EMAIL =
-    GEMINI_API_KEY = 
+    GEMINI_API_KEY =
     ```
 
 4. Run the development server:
