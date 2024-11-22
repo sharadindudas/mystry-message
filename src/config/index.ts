@@ -1,0 +1,10 @@
+export const MONGODB_URL = process.env.MONGODB_URL!,
+    NEXTAUTH_SECRET = process.env.NEXTAUTH_SECRET!,
+    NEXTAUTH_URL = process.env.NEXTAUTH_URL!,
+    REDIS_PASSWORD = process.env.REDIS_PASSWORD!,
+    REDIS_HOST = process.env.REDIS_HOST!,
+    REDIS_PORT = parseInt(process.env.REDIS_PORT!),
+    RESEND_API_KEY = process.env.RESEND_API_KEY!,
+    FROM_DOMAIN = process.env.FROM_DOMAIN!,
+    ADMIN_EMAIL = process.env.ADMIN_EMAIL!,
+    GEMINI_API_KEY = process.env.GEMINI_API_KEY!;
