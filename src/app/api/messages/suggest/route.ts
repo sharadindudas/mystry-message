@@ -10,7 +10,7 @@ export const runtime = "edge";
 
 export const POST = TryCatchHandler(async () => {
     // Set the model
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+    const model = genAI.getGenerativeModel({ model: "models/gemini-1.5-pro" });
 
     // Get the prompt
     const prompt =
