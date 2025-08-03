@@ -43,12 +43,12 @@ export const PUT = TryCatchHandler(async (req) => {
         throw new ErrorHandler("Invalid Otp or Otp has expired", 403);
     }
 
-    // Verify the user and remove the verify otp and otp expiry 
-    userExists.isVerified = true
-    await userExists.save({validateBeforeSave: false})
-    await redisClient.del(`verifyOtp:${userid}`)
-    await redisClient.del(`verifyOtpExpiry:${userid}`)
-    
+    // Verify the user and remove the verify otp and otp expiry
+    userExists.isVerified = true;
+    await userExists.save({ validateBeforeSave: false });
+    await redisClient.del(`verifyOtp:${userid}`);
+    await redisClient.del(`verifyOtpExpiry:${userid}`);
+
     // Return the response
     return NextResponse.json(
         {

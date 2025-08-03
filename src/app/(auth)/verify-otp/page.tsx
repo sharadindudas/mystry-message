@@ -134,6 +134,7 @@ const VerifyOtpPage = () => {
                                         pattern={REGEXP_ONLY_DIGITS}
                                         maxLength={6}
                                         {...field}
+                                        className="mt-2"
                                     >
                                         <InputOTPGroup className="gap-3 justify-center w-full">
                                             {[0, 1, 2, 3, 4, 5].map(

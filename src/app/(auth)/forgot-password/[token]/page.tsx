@@ -97,7 +97,7 @@ const ForgotPasswordTokenPage = () => {
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel>New Password</FormLabel>
-                                <div className="relative">
+                                <div className="relative mt-2">
                                     <FormControl>
                                         <Input
                                             type={
@@ -150,7 +150,7 @@ const ForgotPasswordTokenPage = () => {
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel>Confirm New Password</FormLabel>
-                                <div className="relative">
+                                <div className="relative mt-2">
                                     <FormControl>
                                         <Input
                                             type={

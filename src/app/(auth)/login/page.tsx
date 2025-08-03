@@ -96,7 +96,7 @@ const LoginPage = () => {
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel>Email / Username</FormLabel>
-                                <div className="relative">
+                                <div className="relative mt-2">
                                     <FormControl>
                                         <Input
                                             type="email"
@@ -140,7 +140,7 @@ const LoginPage = () => {
                                         Forgot your password?
                                     </Link>
                                 </div>
-                                <div className="relative">
+                                <div className="relative mt-2">
                                     <FormControl>
                                         <Input
                                             type={

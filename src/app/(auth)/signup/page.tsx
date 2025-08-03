@@ -150,7 +150,7 @@ const SignupPage = () => {
                 <form
                     noValidate
                     onSubmit={handleSubmit(onSubmit)}
-                    className="space-y-6"
+                    className="space-y-5"
                 >
                     <FormField
                         control={control}
@@ -169,7 +169,7 @@ const SignupPage = () => {
                                 >
                                     Username
                                 </FormLabel>
-                                <div className="relative">
+                                <div className="relative mt-2">
                                     <FormControl>
                                         <Input
                                             type="text"
@@ -239,7 +239,7 @@ const SignupPage = () => {
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel>Email</FormLabel>
-                                <div className="relative">
+                                <div className="relative mt-2">
                                     <FormControl>
                                         <Input
                                             type="email"
@@ -275,7 +275,7 @@ const SignupPage = () => {
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel>Password</FormLabel>
-                                <div className="relative">
+                                <div className="relative mt-2">
                                     <FormControl>
                                         <Input
                                             type={
@@ -328,7 +328,7 @@ const SignupPage = () => {
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel>Confirm Password</FormLabel>
-                                <div className="relative">
+                                <div className="relative mt-2">
                                     <FormControl>
                                         <Input
                                             type={

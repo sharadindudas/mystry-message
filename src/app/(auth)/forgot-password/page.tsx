@@ -93,7 +93,7 @@ const ForgotPasswordPage = () => {
                             render={({ field }) => (
                                 <FormItem>
                                     <FormLabel>Email</FormLabel>
-                                    <div className="relative">
+                                    <div className="relative mt-2">
                                         <FormControl>
                                             <Input
                                                 type="email"

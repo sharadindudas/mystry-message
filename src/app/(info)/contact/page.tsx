@@ -104,7 +104,7 @@ const ContactPage = () => {
                             <form
                                 noValidate
                                 onSubmit={handleSubmit(onSubmit)}
-                                className="space-y-8"
+                                className="space-y-6"
                             >
                                 <FormField
                                     control={control}
@@ -112,7 +112,7 @@ const ContactPage = () => {
                                     render={({ field }) => (
                                         <FormItem>
                                             <FormLabel>Name</FormLabel>
-                                            <div className="relative">
+                                            <div className="relative mt-2">
                                                 <FormControl>
                                                     <Input
                                                         type="text"
@@ -148,7 +148,7 @@ const ContactPage = () => {
                                     render={({ field }) => (
                                         <FormItem>
                                             <FormLabel>Email</FormLabel>
-                                            <div className="relative">
+                                            <div className="relative mt-2">
                                                 <FormControl>
                                                     <Input
                                                         type="email"
@@ -184,7 +184,7 @@ const ContactPage = () => {
                                     render={({ field }) => (
                                         <FormItem>
                                             <FormLabel>Message</FormLabel>
-                                            <div className="relative">
+                                            <div className="relative mt-2">
                                                 <FormControl>
                                                     <Textarea
                                                         rows={5}
