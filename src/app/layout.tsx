@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
-import "@/styles/index.css";
 import { AuthProvider } from "@/context/AuthProvider";
 import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import "@/styles/index.css";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -60,6 +61,7 @@ export default function RootLayout({
                     />
                 </body>
             </AuthProvider>
+            <SpeedInsights />
         </html>
     );
 }
