@@ -10,7 +10,7 @@ const BannerButtons = () => {
         <div className="flex space-x-4">
             <Button
                 onClick={() => router.push("/login")}
-                className="bg-gradient-to-r from-color-2 to-color-3 hover:from-color-5 hover:to-color-6 text-white px-8 py-6 rounded-lg font-medium sm:text-base text-sm"
+                className="bg-linear-to-r from-color-2 to-color-3 hover:from-color-5 hover:to-color-6 text-white px-8 py-6 rounded-lg font-medium sm:text-base text-sm"
             >
                 Get Started
             </Button>

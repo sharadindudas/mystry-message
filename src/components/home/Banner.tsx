@@ -9,7 +9,7 @@ const BannerSection = () => {
             <div className="lg:w-1/2 mb-12 lg:mb-0">
                 <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight">
                     Discover the{" "}
-                    <span className="bg-gradient-to-r from-color-2 to-color-3 text-transparent bg-clip-text">
+                    <span className="bg-linear-to-r from-color-2 to-color-3 text-transparent bg-clip-text">
                         Secret
                     </span>{" "}
                     of Anonymous Messaging

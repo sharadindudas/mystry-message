@@ -142,7 +142,7 @@ const VerifyOtpPage = () => {
                                                         key={index}
                                                         index={index}
                                                         className={cn(
-                                                            "bg-white/5 text-base !rounded-lg border border-color-2/20 text-white w-16 h-16",
+                                                            "bg-white/5 text-base rounded-lg! border border-color-2/20 text-white w-16 h-16",
                                                             errors.otp &&
                                                                 "border-red-500 focus-visible:ring-red-500"
                                                         )}

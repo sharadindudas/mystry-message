@@ -26,7 +26,7 @@ const DashboardLoader = () => {
                         </CardHeader>
                         <CardContent className="flex items-center space-x-4">
                             <Skeleton className="h-6 w-12 bg-color-2 rounded-full" />
-                            <Skeleton className="h-6 flex-grow bg-color-1" />
+                            <Skeleton className="h-6 grow bg-color-1" />
                         </CardContent>
                     </Card>
                 </div>

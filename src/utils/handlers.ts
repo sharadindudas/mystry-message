@@ -40,9 +40,9 @@ const handleError = (err: any) => {
     // Zod validation error
     if (err instanceof ZodError) {
         statusCode = 400;
-        const errorMessages = err.errors.map((error) => ({
-            field: error.path.join("."),
-            message: error.message
+        const errorMessages = err.issues.map((issue) => ({
+            field: issue.path.join("."),
+            message: issue.message
         }));
 
         if (errorMessages.length > 1) {

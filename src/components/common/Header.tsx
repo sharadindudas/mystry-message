@@ -34,7 +34,7 @@ const Header = () => {
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/" className="flex items-center space-x-2">
                     <Mail className="sm:h-6 sm:w-6 text-color-2" />
-                    <span className="text-xl sm:text-2xl font-bold tracking-tight bg-gradient-to-r from-color-2 to-color-3 text-transparent bg-clip-text">
+                    <span className="text-xl sm:text-2xl font-bold tracking-tight bg-linear-to-r from-color-2 to-color-3 text-transparent bg-clip-text">
                         Mystry Message
                     </span>
                 </Link>
@@ -66,14 +66,14 @@ const Header = () => {
                             {session?.user ? (
                                 <Button
                                     onClick={handleLogOut}
-                                    className="bg-transparent px-6 h-11 font-medium text-white border border-color-3 hover:bg-gradient-to-r from-color-2 to-color-3 hover:text-white rounded-lg text-base"
+                                    className="bg-transparent px-6 h-11 font-medium text-white border border-color-3 hover:bg-linear-to-r from-color-2 to-color-3 hover:text-white rounded-lg text-base"
                                 >
                                     Log out
                                 </Button>
                             ) : (
                                 <Link
                                     href="/signup"
-                                    className="inline-flex items-center justify-center px-6 h-11 font-medium text-white border border-color-3 hover:bg-gradient-to-r from-color-2 to-color-3 hover:text-white rounded-lg text-base"
+                                    className="inline-flex items-center justify-center px-6 h-11 font-medium text-white border border-color-3 hover:bg-linear-to-r from-color-2 to-color-3 hover:text-white rounded-lg text-base"
                                 >
                                     Sign up
                                 </Link>
@@ -133,14 +133,14 @@ const Header = () => {
                                         {session?.user ? (
                                             <Button
                                                 onClick={handleLogOut}
-                                                className="bg-transparent px-6 h-11 font-medium text-white border border-color-3 hover:bg-gradient-to-r from-color-2 to-color-3 hover:text-white rounded-lg text-base"
+                                                className="bg-transparent px-6 h-11 font-medium text-white border border-color-3 hover:bg-linear-to-r from-color-2 to-color-3 hover:text-white rounded-lg text-base"
                                             >
                                                 Log out
                                             </Button>
                                         ) : (
                                             <Link
                                                 href="/signup"
-                                                className="inline-flex items-center justify-center px-6 h-11 font-medium text-white border border-color-3 hover:bg-gradient-to-r from-color-2 to-color-3 hover:text-white rounded-lg text-base"
+                                                className="inline-flex items-center justify-center px-6 h-11 font-medium text-white border border-color-3 hover:bg-linear-to-r from-color-2 to-color-3 hover:text-white rounded-lg text-base"
                                             >
                                                 Sign up
                                             </Link>

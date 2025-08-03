@@ -32,7 +32,7 @@ const ToolTipMessage = ({
 
             <Tooltip
                 id="tooltip"
-                className="z-10 absolute max-w-xs break-words bg-gray-800 text-white text-sm p-2 rounded"
+                className="z-10 absolute max-w-xs break-words bg-gray-800 text-white text-sm p-2 rounded-sm"
             />
         </>
     );

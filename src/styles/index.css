@@ -1,3 +1,28 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+    --color-color-1: #050b1f;
+    --color-color-2: #0d9488;
+    --color-color-3: #38bdf8;
+    --color-color-4: #e2e8f0;
+    --color-color-5: #0b7a6e;
+    --color-color-6: #0ea5e9;
+    --color-color-7: #0a1836;
+}
+
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentcolor);
+    }
+}
+
+button,
+a {
+    @apply cursor-pointer;
+}

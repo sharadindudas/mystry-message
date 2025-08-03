@@ -5,7 +5,7 @@ const TermsOfServicePage = () => {
     return (
         <div className="pt-8 pb-14 bg-color-1 text-color-4">
             <main className="container mx-auto px-4">
-                <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center bg-gradient-to-r from-color-2 to-color-3 text-transparent bg-clip-text py-2">
+                <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center bg-linear-to-r from-color-2 to-color-3 text-transparent bg-clip-text py-2">
                     Terms of Service
                 </h2>
 
@@ -131,7 +131,7 @@ const TermsOfServicePage = () => {
                     </p>
                     <Link
                         href="/contact"
-                        className="bg-gradient-to-r from-color-2 to-color-3 hover:from-color-5 hover:to-color-6 text-white px-7 py-3 rounded-full text-base h-11"
+                        className="bg-linear-to-r from-color-2 to-color-3 hover:from-color-5 hover:to-color-6 text-white px-7 py-3 rounded-full text-base h-11"
                     >
                         Contact us
                     </Link>

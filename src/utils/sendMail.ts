@@ -1,5 +1,6 @@
 import { FROM_DOMAIN } from "@/config";
 import { ApiResponse } from "@/types/types";
+import { JSX } from "react";
 import { Resend } from "resend";
 
 interface sendMailProps {

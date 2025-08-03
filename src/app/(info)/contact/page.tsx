@@ -66,7 +66,7 @@ const ContactPage = () => {
     return (
         <div className="pt-8 pb-14 bg-color-1 text-color-4">
             <main className="container mx-auto px-4">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-center bg-gradient-to-r from-color-2 to-color-3 text-transparent bg-clip-text">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-center bg-linear-to-r from-color-2 to-color-3 text-transparent bg-clip-text">
                     Contact us
                 </h2>
 

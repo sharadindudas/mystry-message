@@ -133,7 +133,7 @@ const ForgotPasswordPage = () => {
             ) : (
                 <div className="rounded-md bg-color-7 p-4">
                     <div className="flex">
-                        <div className="flex-shrink-0">
+                        <div className="shrink-0">
                             <CheckCircle
                                 className="h-5 w-5 text-color-2"
                                 aria-hidden="true"

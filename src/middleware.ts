@@ -3,23 +3,25 @@ import { getToken } from "next-auth/jwt";
 export { default } from "next-auth/middleware";
 
 export const config = {
-    matcher: ["/dashboard", "/login", "/signup", "/", "/verify-otp"]
+    matcher: ["/", "/login", "/signup", "/verify-otp", "/dashboard"]
 };
 
 export async function middleware(request: NextRequest) {
     const token = await getToken({ req: request });
     const pathname = request.nextUrl.pathname;
 
-    if (
-        token &&
-        (pathname.startsWith("/login") ||
-            pathname.startsWith("/signup") ||
-            pathname.startsWith("/verify-otp"))
-    ) {
+    const isAuthPage =
+        pathname === "/" ||
+        pathname === "/login" ||
+        pathname === "/signup" ||
+        pathname === "/verify-otp";
+    const isProtectedRoute = pathname.startsWith("/dashboard");
+
+    if (token && isAuthPage) {
         return NextResponse.redirect(new URL("/dashboard", request.url));
     }
 
-    if (!token && pathname.startsWith("/dashboard")) {
+    if (!token && isProtectedRoute) {
         return NextResponse.redirect(new URL("/login", request.url));
     }
 

@@ -141,7 +141,7 @@ const DashboardPage = () => {
                                 type="text"
                                 value={profileUrl}
                                 readOnly
-                                className="flex-grow bg-color-1 border-none font-medium text-color-4 h-11"
+                                className="grow bg-color-1 border-none font-medium text-color-4 h-11"
                             />
                             <Button
                                 onClick={handleCopyLink}

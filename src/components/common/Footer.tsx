@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
                     <div className="space-y-4">
-                        <span className="text-2xl font-bold bg-gradient-to-r from-color-2 to-color-3 text-transparent bg-clip-text">
+                        <span className="text-2xl font-bold bg-linear-to-r from-color-2 to-color-3 text-transparent bg-clip-text">
                             Mystry Message
                         </span>
                         <p className="text-sm text-color-4">
@@ -89,7 +89,7 @@ const Footer = () => {
                             />
                             <Button
                                 type="button"
-                                className="bg-gradient-to-r from-color-2 to-color-3 hover:from-color-5 hover:to-color-6 text-white h-11 px-6"
+                                className="bg-linear-to-r from-color-2 to-color-3 hover:from-color-5 hover:to-color-6 text-white h-11 px-6"
                             >
                                 Subscribe
                             </Button>
